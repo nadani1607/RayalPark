@@ -1,0 +1,73 @@
+.clients__wrapper {
+    margin: 140px 0;
+}
+
+.clients__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients__paragraph {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+}
+
+.clients__box {
+    display: flex;
+    gap: 25px;
+}
+
+.clients__content {
+    display: flex;
+    flex-direction: column;
+    padding: 28px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: calc((100%-60px)/3);
+    align-items: center;
+    margin-top: 68px;
+    opacity: 0.6;
+    transition: 0.3s;
+ 
+}
+
+.clients__review {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    font-family: var(--roboto-font);
+    margin-top: 25px;
+}
+
+.clients__name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.clients__link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    font-family: var(--roboto-font);
+    text-align: center;
+    margin-top: 5px;
+}
+
+.clients__content:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.clients__review::before {
+    content: '';
+    width: 24px;
+    height: 20px;
+    background-image: url('../img/clients/quote.svg');
+    display: block;
+}

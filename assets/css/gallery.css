@@ -1,0 +1,74 @@
+.gallery {
+    margin-top: 140px;
+}
+
+.gallery__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery__title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+}
+
+.gallery__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    color: var(--roboto-font);
+    opacity: 0.6;
+    max-width: 439px;
+    margin-top: 25px;
+}
+
+.gallery__button {
+    margin-top: 30px;
+}
+
+.gallery__content {
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+}
+
+.gallery__info {
+    background: rgba(226, 226, 226, 0.4);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    padding: 23px 28px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.gallery__line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.gallery__roomtype {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    margin-right: 25px;
+}
+
+.gallery__price {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    font-family: var(--roboto-font);
+    opacity: 0.8;
+}
+
+.content__button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+}

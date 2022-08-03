@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue-color: #1B75BB;
+    --roboto-font: 'Roboto', sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+body {
+    color: #081F32;
+    font-family: 'Gelasio';
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.button {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    background: var(--blue-color);
+    border-radius: 5px;
+    display: inline-block;
+}
+

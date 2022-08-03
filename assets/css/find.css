@@ -1,0 +1,30 @@
+.find {
+    margin-top: -50px;
+}
+
+.find__wrapper {
+    display: flex;
+    padding: 24px 49px 27px 49px;
+    background: rgba(255, 255, 255, 0.21);
+    backdrop-filter: blur(70px);
+    border-radius: 10px;
+    width: max-content;
+}
+
+.find__box {
+    margin-right: 60px;
+}
+
+.find__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    font-family: var(--roboto-font);
+}
+
+.find__data {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    font-family: var(--roboto-font)
+}

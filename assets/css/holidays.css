@@ -1,0 +1,57 @@
+.holidays {
+    margin-top: 133px;
+    display: flex;
+}
+
+.holidays__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.holidays__images {
+    position: relative;
+}
+
+.holidays__img {
+    border-radius: 10px;
+}
+
+.holidays__back {
+    position: absolute;
+    top: -47px;
+    right: -35px;
+    z-index: -1;
+}
+
+.holidays__sprite {
+    position: absolute;
+    bottom: -78px;
+    left: -55px;
+    z-index: -1;
+}
+
+.holidays__content {
+    margin-left: 70px;
+}
+
+.holidays__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--blue-color);
+    font-family: var(--roboto-font);
+}
+
+.holidays__text {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 140%;
+    margin-top: 15px;
+}
+
+.holidays__button {
+    margin-top: 31px;
+}

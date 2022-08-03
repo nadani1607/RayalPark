@@ -1,0 +1,50 @@
+.starter {
+    position: relative;
+    padding-top: 113px;
+    background-image: url('../img/starter_back.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80vh;
+}
+
+.starter__wrapper {
+    max-width: 456px;
+    padding-top: 15vh;
+}
+
+.starter__paragraph {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--blue-color);
+    font-family: var(--roboto-font);
+}
+
+.starter__title {
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 120%;
+    margin-top: 15px;
+}
+
+.starter__blue {
+    color: var(--blue-color);
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 120%;
+}
+
+.starter__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    margin-top: 25px;
+    max-width: 347px;
+}
+
+.starter__button {
+    margin-top: 30px;
+}
